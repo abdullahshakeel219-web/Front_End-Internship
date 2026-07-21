@@ -1,0 +1,79 @@
+body{
+    padding:10px;
+    background-color: cadetblue;
+    border:2px solid black;
+    margin:0px;
+}
+#nme{
+    text-align: center;
+
+}
+header p{
+    text-align: center;
+    font-size: larger;
+}
+nav a{
+    padding:10px;
+    text-align: center;
+    text-decoration:none;
+    font-size: x-large;
+    color:white;
+    border:5px solid black;
+    margin :0px;
+    margin-bottom: 0px;
+    display:inline-block;
+    padding: 10px 10px;
+  text-shadow: 2px 2px 4px black;
+}
+nav{
+    text-align: center;
+}
+.sec{
+    background-color: darkgray;
+    border:5px solid black;
+    padding:20px;
+}
+#contact{
+    background-color: white;
+     border:5px solid black;
+      padding:10px;
+   
+}
+footer{
+    background-color:darkgray ;
+    font-size: larger;
+    padding:10px;
+    border:5px solid black;
+}
+nav a:hover{
+color:teal;
+}
+button{
+    display: block;
+    font-size: large;
+    padding:20px;
+    border:2px solid black;
+    width:100px;
+    height:50px;
+    background-color: blue;
+    color:aliceblue;
+    font-weight: bold;
+    text-align: center;
+
+}
+input,textarea{
+    display: inline-block;
+    margin:10px;
+  vertical-align: middle;
+  
+}
+#projects{
+padding:5px 10px;
+}
+label{
+    width:100px;
+    margin-bottom: 10px;
+    font-weight:bold;
+    display: inline-block;
+    vertical-align: middle;
+}
