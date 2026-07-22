@@ -1,0 +1,164 @@
+body{
+    padding:10px;
+    
+    background-color:white;
+    margin:0px;
+}
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:1000;
+    background-color: darkslategray;
+}
+
+nav a{
+    padding:10px;
+    text-align: center;
+    text-decoration:none;
+    font-size: x-large;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+nav{
+    display:flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   background-color: darkslategray;
+   padding:5px;
+}
+
+h2 h3{
+    text-align: center;
+}
+
+#about{
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    width:100%;
+   
+  
+
+}
+ul{
+    margin-top:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    
+}
+li{
+    border-radius: 50px;
+    background-color: teal;
+    color:white;
+    padding:15px;
+    font-size:large;
+  
+}
+
+#skills h2{
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+#contact{
+    background-color: whitesmoke;
+   
+      padding:10px;
+      padding-bottom: 70px;
+}
+#contact h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sec{
+    margin-bottom:50px;
+}
+h3 a{
+    color:black;
+}
+footer{
+    background-color: darkslategray;
+    font-size: larger;
+    padding:10px;
+  width:100%;
+    color:white;
+ margin-bottom: -10px;
+ margin-left: -10px;
+   
+}
+#email{
+    text-align:center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+nav a:hover{
+color:teal;
+}
+button{
+    display: block;
+    font-size: large;
+    padding:20px;
+    border:2px solid black;
+    width:100px;
+    height:50px;
+    background-color: blue;
+    color:aliceblue;
+    font-weight: bold;
+    text-align: center;
+}
+
+#aboutdesc{
+    text-align: center;
+    font-size: larger;
+}
+#projects{
+padding:5px 10px;
+
+}
+article{
+background-color:whitesmoke;
+ border-radius: 20px;
+}
+#introname{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+#dii{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:100px;
+   
+}
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-radius: 30px;
+}
+#projects h2{
+    font-size: xx-large;
+}
+label{
+    width:100px;
+    margin-bottom: 5px;
+    font-weight:bold;
+    display: inline-block;
+    vertical-align:text-top;
+    font-size: large;
+}
+
+#nme{
+    color:aliceblue;
+    font-weight: bold;
+}
