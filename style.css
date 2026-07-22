@@ -4,7 +4,9 @@ body{
     background-color:white;
     margin:0px;
 }
-
+#about, #skills, #projects, #contact {
+    scroll-margin-top: 90px;
+}
 header{
     position:fixed;
     top:0;
