@@ -267,3 +267,56 @@ label{
     color:aliceblue;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    
+    #dii{
+        grid-template-columns: repeat(2, 1fr);  
+        gap: 30px;
+    }
+    
+    ul{
+        flex-wrap: wrap;                          
+        gap: 15px;
+    }
+    body{
+    padding:10px;
+    background-color:white;
+    margin:0px;
+    overflow-x: hidden;        
+}
+}
+
+
+@media (max-width: 480px) {
+    
+    nav{
+        flex-wrap: wrap;                  /* items zaroorat pe neeche wrap hon */
+        padding: 10px;
+    }
+    
+    #nme{
+        font-size: 18px;                   /* naam chhota karo */
+        text-align: center;
+        width: 100%;                       /* poori width le, apni line pe aaye */
+    }
+    
+    #menu{
+        margin: 0 auto;                    /* button ko center mein le aao */
+    }
+    
+    #navlinks{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #introname{
+        font-size: 22px;
+        padding: 0 15px;
+    }
+    
+    #aboutdesc{
+        font-size: 15px;
+        padding: 0 15px;
+    }
+}
