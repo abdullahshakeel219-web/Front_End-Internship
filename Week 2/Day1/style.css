@@ -291,18 +291,18 @@ label{
 @media (max-width: 480px) {
     
     nav{
-        flex-wrap: wrap;                  /* items zaroorat pe neeche wrap hon */
+        flex-wrap: wrap;                 
         padding: 10px;
     }
     
     #nme{
-        font-size: 18px;                   /* naam chhota karo */
+        font-size: 18px;                  
         text-align: center;
-        width: 100%;                       /* poori width le, apni line pe aaye */
+        width: 100%;                       
     }
     
     #menu{
-        margin: 0 auto;                    /* button ko center mein le aao */
+        margin: 0 auto;                   
     }
     
     #navlinks{

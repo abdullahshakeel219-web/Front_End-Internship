@@ -2,7 +2,12 @@ const toggleMenu=()=>{
 let menu=document.getElementById("navlinks");
 menu.classList.toggle("active");
 };
-
+const navLinks = document.querySelectorAll("#navlinks a");
+navLinks.forEach((link) => {
+  link.addEventListener("click", () => {
+    document.getElementById("navlinks").classList.remove("active");
+  });
+});
 const send=()=>{
 const name=document.getElementById("name").value;
 const mail=document.getElementById("mail").value;
