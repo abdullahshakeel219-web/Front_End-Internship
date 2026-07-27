@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+             <h1 id="nme">Muhammad Abdullah Shakeel</h1>
+
+             <button id="menu" onclick="toggleMenu()">Menu</button>
+            <div id="navlinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            </div>
+        </nav>
+      
+    </header>
+     
+
+    <main>
+        <section id="about" class="sec">
+         <h1 id="introname">Hi, I'm Muhammad Abdullah Shakeel</h1>
+        <p id="aboutdesc">I'm a frontend development intern with a passion for turning
+             ideas into clean, functional interfaces. Currently mastering React after
+              building a solid foundation in HTML, CSS, and modern JavaScript — with 
+            prior experience in C#, SQL, and C++ through hands-on projects.</p>
+        </section>
+
+        <section id="skills"class="sec">
+            <h2>Skills</h2>
+            <div class="skill-group">
+        <h3>Frontend</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+
+    <div class="skill-group">
+        <h3>Languages</h3>
+        <ul>
+            <li>Java</li>
+            <li>C#</li>
+            <li>C++</li>
+        </ul>
+    </div>
+
+    <div class="skill-group">
+        <h3>Concepts</h3>
+        <ul>
+            <li>OOP</li>
+            <li>SQL</li>
+        </ul>
+    </div>
+
+        </section>
+
+        <section id="projects"class="sec">
+            <h2>Projects</h2>
+            <div id="dii">
+            <article>
+               <h3>Movie Ticket Booking System</h3>
+                <p>A desktop app where users can browse movies, select seats, and book tickets,developed  using C#,SQL,Windows Forms.Technologies i used in this project are visual studio,SQL Server.</p>
+            </article>
+
+            <article>
+                <h3>Chat System</h3>
+                <p>A real-time messaging application that lets users communicate with each other instantly.</p>
+            </article>
+
+            <article>
+                 <h3>Blood Donor Management System</h3>
+                 <p>A system that tracks donors and their blood groups, making it easy to find donors when needed.</p>
+            </article>
+
+             <article>
+                 <h3>Hotel Management System</h3>
+                 <p>Hotel Management System is a console based application developed using C++.it manages room booking
+                    ,customer details, and customer check-out.</p>
+            </article>
+            </div>
+        </section>
+
+        <section id="contact">
+        
+            <h2>Contact Me</h2>
+            <h3 id="email">Email: <a href="mailto:abdullah.shakeel219@gmail.com">abdullah.shakeel219@gmail.coms</a></h3>
+            
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="mail" required>
+                <br><br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <br><br>
+                <label for="phone">PhoneNumber</label>
+                <input type="number" id="phone" name="number" required>
+                <br><br>
+
+            
+                <button type="button" onclick="send()">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+       <p> &copy; 2026 Muhammad Abdullah Shakeel.All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
