@@ -1,0 +1,10 @@
+let numbers = [2, 4, 6, 8, 10, 12, 15, 18];
+let square=numbers.map(num=>num*num);
+console.log(`Square Of Array Elements: ${square}`);
+let numGreater=numbers.filter(num=>num>10);
+console.log(`Numbers Greater Than 10: ${numGreater}`);
+let total=numbers.reduce((sum,num)=>sum+num);
+console.log(`Total Of Array Elements ${total}`);
+let evenNum=numbers.filter(num=>num%2===0);
+let evenTotal=evenNum.reduce((sum,num)=>sum+num);
+console.log(`Total Of Even Numbers ${evenTotal}`);
