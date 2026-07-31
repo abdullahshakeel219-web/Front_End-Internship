@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic History Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Islamic History Explorer</h1>
+    </header>
+    <main>
+        <p id="ab">Choose an event to see its summary</p>
+
+        <select class="both" id="event-select">
+    <option value="Battle_of_Badr">Battle of Badr</option>
+    <option value="Battle_of_Uhud">Battle of Uhud</option>
+    <option value="Battle_of_the_Trench">Battle of the Trench</option>
+    <option value="Conquest_of_Mecca">Conquest of Mecca</option>
+    <option value="Battle_of_Yarmouk">Battle of Yarmouk</option>
+  </select>
+  <div class="both" id="summary"></div>
+  <button id="btn" onclick="getSummary()">Get Summary</button>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

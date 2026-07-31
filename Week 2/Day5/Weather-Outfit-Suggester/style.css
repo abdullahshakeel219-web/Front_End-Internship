@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.body{
+    min-height: 100vh;
+    background-image: url("Weather.jfif");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main{
+    width: 35%;
+    min-height: 100vh;
+    background-color: #f8fafc;
+    text-align: center;
+}
+
+
+header{
+    color:#1e293b;
+    font-size: larger;
+    padding-top: 30px;
+}
+
+
+#content{
+    padding:20px;
+}
+
+
+input{
+    padding:10px;
+    border-radius:10px;
+    width:80%;
+    margin-bottom:30px;
+}
+
+
+button{
+    padding:10px;
+    width:80%;
+    border-radius:10px;
+    background-color:#0369a1;
+    color:#e0f2fe;
+    font-size:larger;
+}
+
+
+#result{
+    margin:30px auto;
+    border-radius:10px;
+    background-color:#e0f2fe;
+    padding:20px;
+    color:#0c4a6e;
+    width:70%;
+    font-size:x-large;
+}
