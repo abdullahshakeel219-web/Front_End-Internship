@@ -9,6 +9,14 @@ header{
     margin-bottom: 20px;
     color:#2C2C2A;
 }
+#card{
+    background-color: #FFFFFF;
+    border:3px solid green;
+    width:50%;
+    position: relative;
+    left:310px;
+    top:50px;
+}
 main{
     display: flex;
     flex-direction: column;
