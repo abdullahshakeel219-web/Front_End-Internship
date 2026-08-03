@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+        <p>Convert USD to any currency</p>
+    </header>
+    <main>
+        <label for="amount">Amount In USD</label>
+        <input type="number" id="amount" name="amount">
+        <label for="currency">Convert To</label>
+        <select id="currency">
+        <option value="PKR">PKR - Pakistani Rupee</option>
+        <option value="USD">USD - US Dollar</option>
+         <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+         <option value="SAR">SAR - Saudi Riyal</option>
+        </select>
+        <button id="btn" onclick="">Convert</button>
+        <div id="result"></div>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

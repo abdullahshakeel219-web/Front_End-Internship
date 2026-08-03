@@ -1,0 +1,49 @@
+body{
+    background-color: #FFFFFF;
+    padding:10px;
+    border-color: #B4B2A9;
+    background-image: url("CurrencyConverter.png");
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#2C2C2A;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 20px;
+    font-size: larger;
+    
+}
+label{
+    color:#5F5E5A;
+}
+select{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#btn{
+     padding: 10px;
+    border-radius: 10px;
+    width:14%;
+    font-size: large;
+    margin-bottom: 10px;
+    background-color: #0F6E56;
+    color: #FFFFFF;
+}
+#result{
+    background-color:lightgreen;
+    color: #04342C;
+    padding:20px;
+    font-size: larger;
+}

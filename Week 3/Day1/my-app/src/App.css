@@ -1,0 +1,16 @@
+.head{
+
+  text-align: center;
+
+}
+body{
+    background-image: url('/blue.jpg');
+  background-size: cover;
+  padding: 10px;
+  color:white;
+}
+.about{
+  text-align: center;
+  color:bisque;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
