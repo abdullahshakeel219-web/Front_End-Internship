@@ -1,0 +1,70 @@
+body{
+    background-image: url("Movie.jfif");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding:10px;
+    color:white;
+}
+#card{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    height:200%;
+    padding:20px;
+    align-items: center;
+    position:relative;
+    left:350px;
+    top:60px;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#fields{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#movieName{
+    padding:8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#searchBtn{
+    padding:8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width:45%;
+    background-color: darkblue;
+    color:white;
+    font-weight: bold;
+    border:2px solid black;
+    font-size: large;
+}
+#searchBtn:hover{
+    background-color: cadetblue;
+}
+#status,#result{
+    background-color: slategrey;
+    color:white;
+}
+.movie-cards{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:30px;
+    font-size:large;
+    padding:10px;
+    color:black;
+    font-weight: bold;
+    border:2px solid black;
+    margin:10px;
+    transition: transform 0.3s ease;
+}
+.movie-cards:hover{
+    background-color: cadetblue;
+    transform:translateY(-10px);
+}
