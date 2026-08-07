@@ -1,0 +1,31 @@
+#dii{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:16px;
+    margin-bottom: 50px;
+}
+#projectHeading{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+article{
+ background-color: #111820;
+    border:1px solid #1c2530;
+    padding:10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article p{
+    color:#7d8590;
+}
+article:hover{
+    transform: translateY(-10px);
+    background-color:orangered;
+    
+}
+article p:hover{
+    color: black;
+}

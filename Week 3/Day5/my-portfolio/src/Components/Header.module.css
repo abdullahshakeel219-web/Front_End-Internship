@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 32px;
+    width:100%;
+    box-sizing: border-box;
+}
+div a{
+    color:#7d8590;
+    padding:10px;
+    margin:5px;
+    font-size: large;
+    font-weight: bold;
+}
+div a:hover{
+   background-color: #ff7849;
+}
+nav h2{
+    color:#ff7849;
+}

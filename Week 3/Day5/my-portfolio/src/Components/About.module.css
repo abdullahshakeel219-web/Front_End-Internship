@@ -1,0 +1,38 @@
+.sec{
+    max-width: 600px;
+    margin:0 auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+#front{
+    color:#ff7849;
+    font-size: large;
+}
+#aboutdesc{
+    color:#7d8590;
+    margin-bottom: 60px;
+}
+#btnGroup{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding:10px;
+    gap:10px;
+    margin-top: 30px;
+}
+#download{
+    
+  background-color: #0a0e14;
+  color:white;
+    transition: transform 0.3s ease;
+}
+#download:hover{
+    transform: translateY(-10px);
+}
+#view{
+    transition: transform 0.3s ease;
+}
+#view:hover{
+    transform: translateY(-10px);
+}
