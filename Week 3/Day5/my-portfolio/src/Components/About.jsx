@@ -4,7 +4,7 @@ const About=({name,description})=>{
     return(
        <section id="about" className={styles.sec}>
         <p id={styles.front}>Frontend Developer Intern</p>
-         <h1 id="introname">Hi, {name}</h1>
+         <h1 id="introname">Hi,I'm {name}</h1>
         <p id={styles.aboutdesc}>{description}</p>
         <div id={styles.btnGroup}>
         <button id={styles.view}>View Projects</button>
