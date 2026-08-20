@@ -1,0 +1,73 @@
+
+export const movies = [
+  {
+    id: "1",
+    title: "Inception",
+    year: 2010,
+    genre: "Sci-Fi",
+    rating: 8.8,
+  },
+  {
+    id: "2",
+    title: "Interstellar",
+    year: 2014,
+    genre: "Sci-Fi",
+    rating: 8.6,
+  },
+  {
+    id: "3",
+    title: "The Dark Knight",
+    year: 2008,
+    genre: "Action",
+    rating: 9.0,
+  },
+  {
+    id: "4",
+    title: "Parasite",
+    year: 2019,
+    genre: "Thriller",
+    rating: 8.5,
+  },
+  {
+    id: "5",
+    title: "The Shawshank Redemption",
+    year: 1994,
+    genre: "Drama",
+    rating: 9.3,
+  },
+  {
+    id: "6",
+    title: "Pulp Fiction",
+    year: 1994,
+    genre: "Crime",
+    rating: 8.9,
+  },
+  {
+    id: "7",
+    title: "The Matrix",
+    year: 1999,
+    genre: "Sci-Fi",
+    rating: 8.7,
+  },
+  {
+    id: "8",
+    title: "Gladiator",
+    year: 2000,
+    genre: "Action",
+    rating: 8.5,
+  },
+  {
+    id: "9",
+    title: "Whiplash",
+    year: 2014,
+    genre: "Drama",
+    rating: 8.5,
+  },
+  {
+    id: "10",
+    title: "Spirited Away",
+    year: 2001,
+    genre: "Animation",
+    rating: 8.6,
+  },
+];

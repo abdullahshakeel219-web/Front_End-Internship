@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: aliceblue;
+    color:black;
+    width:50%;
+    position:relative;
+    left:280px;
+    min-height: 100vh;
+    border-radius: 10px;
+    
+}
