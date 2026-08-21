@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+.movieCards{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:16px;
+    margin: 10px;
+}
+.card{
+    border:5px solid #0ff;
+    background-color:crimson;
+    padding:10px;
+    padding-top: 20px;
+    
+}
+input{
+    width:20%;
+    padding: 5px;
+    font-size: large;
+    border-radius: 10px;
+    border:2px solid black;
+    position:relative;
+    left:450px;
+    margin-bottom: 10px;
+}
