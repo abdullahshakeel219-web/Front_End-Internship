@@ -1,0 +1,17 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+    margin:10px;
+   
+}
+.links{
+    display: flex;
+    gap:20px;
+    color:white;
+}
+Link{
+    color:white;
+}
