@@ -6,9 +6,7 @@
 }
 
 
-/* =========================
-   FEATURED MOVIE
-========================= */
+
 
 .featuredMovie {
   position: relative;
@@ -27,7 +25,7 @@
 }
 
 
-/* Simple Overlay */
+
 
 .overlay {
   position: absolute;
@@ -47,7 +45,7 @@
 }
 
 
-/* Featured Information */
+
 
 .featuredInfo {
   position: absolute;
@@ -70,9 +68,6 @@
 }
 
 
-/* =========================
-   TRENDING
-========================= */
 
 .trending {
   margin-bottom: 45px;
@@ -85,9 +80,7 @@
 }
 
 
-/* =========================
-   SLIDER
-========================= */
+
 
 .sliderWrapper {
   display: flex;
@@ -115,9 +108,7 @@
 }
 
 
-/* =========================
-   MOVIE CARD
-========================= */
+
 
 .cards {
   flex: 0 0 150px;
@@ -154,7 +145,7 @@
 }
 
 
-/* Movie Name */
+
 
 .cards p {
   font-size: 15px;
@@ -170,7 +161,7 @@
 }
 
 
-/* Rating */
+
 
 .movieRating {
   display: block;
@@ -184,9 +175,7 @@
 }
 
 
-/* =========================
-   ARROWS
-========================= */
+
 
 .arrow {
   flex-shrink: 0;
@@ -222,9 +211,7 @@
 }
 
 
-/* =========================
-   MOBILE
-========================= */
+
 
 @media (max-width: 768px) {
 
