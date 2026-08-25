@@ -1,0 +1,206 @@
+.moviePage {
+  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
+  color: white;
+}
+
+/* Movie Details */
+
+.movieCard {
+  display: flex;
+  gap: 35px;
+  background: #151515;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 35px;
+}
+
+.poster {
+  width: 280px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  color: white;
+}
+
+.subInfo {
+  font-size: 18px;
+  color: #aaa;
+  margin: 0;
+}
+
+.rating {
+  font-size: 20px;
+  color: #f5c518;
+  margin: 0;
+}
+
+.overview {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ddd;
+  max-width: 700px;
+}
+
+
+/* Trailer */
+
+.trailerSection {
+  background: #151515;
+  padding: 30px;
+  border-radius: 18px;
+  margin-bottom: 35px;
+}
+
+.trailerSection h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.videoWrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.videoWrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+
+/* Cast */
+
+.castSection {
+  background: #151515;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.castSection h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.castCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 25px;
+}
+
+.castCard {
+  background: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.castCard img,
+.noImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.noImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #aaa;
+}
+
+.castCard h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 15px 8px 6px;
+}
+.watchlistBtn {
+  margin: 12px 0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #e50914;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.watchlistBtn:hover {
+  background: #b0060f;
+}
+.castCard p {
+  font-size: 15px;
+  color: #aaa;
+  margin: 5px 5px 15px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+  .moviePage {
+    width: 94%;
+    margin: 20px auto;
+  }
+
+  .movieCard {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .poster {
+    width: 220px;
+    height: 330px;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .overview {
+    font-size: 16px;
+  }
+
+  .trailerSection,
+  .castSection {
+    padding: 20px;
+  }
+
+  .trailerSection h2,
+  .castSection h2 {
+    font-size: 24px;
+  }
+
+  .castCards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+}

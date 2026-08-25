@@ -3,7 +3,7 @@ import MoviesList from './Components/MoviesList.jsx';
 import MovieDetails from './Components/MovieDetails.jsx';
 import Home from './Components/Home.jsx';
 import Navbar from './Components/Navbar.jsx';
-import Watchlist from './Components/Watchlist.jsx';
+import WatchlistPage from './Components/WatchlistPage.jsx';
 const App=()=>{
   return(
     <>
@@ -15,7 +15,7 @@ const App=()=>{
       <Route path="/" element={<Home />} />
       <Route path="/movies" element={<MoviesList />} />
      <Route path="/movies/:id" element={<MovieDetails />} />
-     <Route path="/watchlist" element={<Watchlist />} />
+     <Route path="/watchlist" element={<WatchlistPage />} />
     </Routes>
     </>
   )
